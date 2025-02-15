@@ -1,0 +1,25 @@
+# write a python program to get three numbers from the user , and solve this equation (e = a + b + ac / b * (2a + 3b)) by using function methods =>
+# frist_number = float(input("please enter the frist number is = "))
+# second_number = float(input("please enter the second number is = "))
+# third_number = float(input("please enter the third number is = "))
+# def get_result_of_equation_of_numbers(fri_num , sec_num , thi_num) :
+#     print("the different values of the three numbers is : \n")
+#     print("the frist number is = "+str(fri_num))
+#     print("the second number is = "+str(sec_num))
+#     print("the third number is = "+str(thi_num))
+#     result_of_equation_of_numbers = fri_num + sec_num + fri_num * thi_num / sec_num * (2 * fri_num + 3 * sec_num)
+#     print("the result of the equation of the different numbers is = "+str(result_of_equation_of_numbers))
+# get_result_of_equation_of_numbers(frist_number , second_number , third_number)
+
+def get_result_of_equation_of_numbers(fri_num , sec_num , thi_num) :
+    print("the different values of the three numbers is : \n")
+    print("the frist number is = "+str(fri_num))
+    print("the second number is = "+str(sec_num))
+    print("the third number is = "+str(thi_num))
+    result_of_equation_of_numbers = fri_num + sec_num + fri_num * thi_num / sec_num * (2 * fri_num + 3 * sec_num)
+    return("the result of the equation of the different numbers is = "+str(result_of_equation_of_numbers)) 
+frist_number = float(input("please enter the frist number is = "))
+second_number = float(input("please enter the second number is = "))
+third_number = float(input("please enter the third number is = "))
+result_of_equation = get_result_of_equation_of_numbers(frist_number , second_number , third_number)
+print(result_of_equation)
