@@ -1,0 +1,12 @@
+# write a python program to get four numbers from the user , and then get the result of the equation (e = d + a + 2ab / d * (4c + 10))=>
+frist_num = float(input("please enter the frist number is = "))
+second_num = float(input("please enter the second number is = "))
+third_num = float(input("please enter the third number is = "))
+fourth_num = float(input("please enter the fourth number is = "))
+print("the different values of the four numbers is : \n")
+print("the frist number is = "+str(frist_num))
+print("the second number is = "+str(second_num))
+print("the third number is = "+str(third_num))
+print("the fourth number is = "+str(fourth_num))
+result_of_equation_of_numbers = fourth_num + frist_num + 2 * frist_num * second_num / fourth_num * (4 * third_num + 10)
+print("the result of the equation of the different numbers is = "+str(result_of_equation_of_numbers))
