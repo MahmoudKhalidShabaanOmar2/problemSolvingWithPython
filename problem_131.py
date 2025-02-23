@@ -1,0 +1,7 @@
+# write a python program to get student name , and student age from the user , and then make sure that username only contains alphnumeric character to take addmission in the shcool if student age is grater than , or equal to five , and make sure that the length of the student name is less than , or equal to eight =>
+student_name = input("please enter the name of the student is : ")
+student_age = float(input("please enter the age of the student is : "))
+if((student_name . isalnum()) and (len(student_name) <= 8) and ((student_age >= 5))):
+        print("Okay , your entered studnet name is \"OKAY\" , because your entered student name is : \""+student_name+"\" , because student name only contains alphabetic character , or numeric character , and it does not contain special characters , and the length of the characters of the student name is = \""+str(len(student_name))+" characters\" , and you can take addmission in the college , because your entered student age is = \""+str(student_age)+" years\"")
+else : 
+         print("Sorry , your entered name student name is \"NOT OKAY\" , because your entered student name is : \""+student_name+"\" , because student name contains alphabetic characters , or numeric characters , or also student name contains special characters , or the length of the characters of the student name is = \""+str(len(student_name))+" characters\" , and you can not take addmission in the college , because the age of the student is = \""+str(5 - student_age)+" years\"")
