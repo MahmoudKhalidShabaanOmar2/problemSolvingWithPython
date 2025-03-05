@@ -1,0 +1,11 @@
+# write a python program to get frist name , and second name from the user , and then display the full name in the capitalize format of the both names =>
+frist_name = input("please enter the frist name is : ")
+second_name = input("please enter the second name is : ")
+print("the frist name is : "+frist_name)
+print("the second name is : "+second_name)
+print("the full name is : "+frist_name+" "+second_name)
+capitalize_of_frist_name = frist_name . capitalize()
+capitalize_of_second_name = second_name . capitalize()
+print("the capitalize of the frist name is : "+capitalize_of_frist_name)
+print("the capitalize of the second name is : "+capitalize_of_second_name)
+print("the capitalize of the full name is : "+capitalize_of_frist_name+" "+capitalize_of_second_name)
