@@ -1,0 +1,12 @@
+# write a python program to get different information of student from the user , and then display student information =>
+student_name = input("please enter the name of the student is : ")
+student_father_name = input("please enter the name of the father of the student is : ")
+student_cnic = input("please enter the number of the computerized national identify card of the student is : ")
+student_age = float(input("please enter the age of the student is = "))
+student_contact_number = input("please enter the phone number of the student is : ")
+print("the different information about the student is : \n")
+print("the name of the student is : \""+student_name+"\"")
+print("the name of the father of the student is : \""+student_father_name+"\"")
+print("the computerized national identify card of the student is : \""+student_cnic+"\"")
+print("the age of the student is : \""+str(student_age)+"\"")
+print("the contact number of the student is : \""+student_contact_number+"\"")
