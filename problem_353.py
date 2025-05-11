@@ -1,0 +1,1 @@
+# write a python program to get list of numbers from the user , and then get the second , and second number from the ending of the list of the numbers , and then get the sum of the second number , and second number from the ending of the list of the numbers by using function method =>
